@@ -1,0 +1,7 @@
+#FtoC Documentation File
+
+##What I did/How I did it
+I started writing this code by creating a variable for f (my fahrenheit placeholder) which I could change to be any number. That required me to use the binding assignment "let". I then used this same binding to create a variable for c (my celcius placeholder). The variable for c had to be much more complicated than that for f because I needed to add the conversion formula (which was given to me in the assignment) but written so that javaScript could understand me... For this I used "((f - 32) * (5 / 9))" which makes sense because its just basic algebra. Lastly I used the print function "console.log(c)" to provide me the correct conversion from f to c.
+
+##Problems I faced/How I overcame them
+Honestly there werent to many actual issues I faced while writing this code. The main frustration I ran into was organizing and identifying the correct code I needed in order to get the proper response from my coding. I overcame this roadblock, or writers block in other words, by writing a quick psuedoscript of how I thought the equation and commands should look. This provided me an outline that allowed me to actually understand the order of things and all the pieces. I then translated my psuedoscript into proper javaScript using the README from todays class.
