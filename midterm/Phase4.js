@@ -1,14 +1,14 @@
-let i = 20
+let i = 5
 
 function setup() {
   createCanvas(400, 400);
   let c1 = color('hsl(160, 100%, 50%)');
   background(c1);
 }
-  function drawObject(x, y, scaleValue) {
+  function drawObject(x, y, scaleN) {
   push();
   translate(x, y);
-  scale(scaleValue);
+  scale(scaleN);
   stroke('magenta');
   strokeWeight(7);
   line(30, 29, 20, 44);
